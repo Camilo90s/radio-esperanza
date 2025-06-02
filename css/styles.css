@@ -16,10 +16,49 @@ body {
     font-family: "Poppins", sans-serif;;
 }
 
+h1 { font-size: 24px; }
+h2 { font-size: 20px; }
+p  { font-size: 14px; }
+
+/* Teléfonos grandes */
+@media (min-width: 481px) and (max-width: 767px) {
+  h1 { font-size: 28px; }
+  h2 { font-size: 22px; }
+  p  { font-size: 15px; }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 { font-size: 32px; }
+  h2 { font-size: 24px; }
+  p  { font-size: 16px; }
+}
+
+/* Laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  h1 { font-size: 36px; }
+  h2 { font-size: 28px; }
+  p  { font-size: 17px; }
+}
+
+/* Macs o pantallas grandes */
+@media (min-width: 1200px) and (max-width: 1919px) {
+  h1 { font-size: 40px; }
+  h2 { font-size: 32px; }
+  p  { font-size: 18px; }
+}
+
+/* Televisores y pantallas 4K */
+@media (min-width: 1920px) {
+  h1 { font-size: 48px; }
+  h2 { font-size: 36px; }
+  p  { font-size: 20px; }
+}
+
 .contenedor {
     max-width: 96rem;
-    margin: 0 auto;
     width: 90%;
+    margin: 0 auto;
 }
 
 .header {
@@ -29,34 +68,15 @@ body {
     margin-top: 1rem;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo p {
-    font-size: 1rem;
-}
-
 .boton {
-    background-color: #2D6CDF;
+    background-color: blue;
     padding: 1rem 2rem;
-    border-radius: 12rem;
+    border-radius: 5rem;
 }
 
-.boton__enlace {
+.boton__texto {
     color: var(--primary);
-    font-size: 1rem;
     text-decoration: none;
-    padding: 0;
-}
-
-@media (max-width: 480px) {
-  
-}
-
-/* Teléfonos grandes (modo horizontal o pantallas más grandes) */
-@media (min-width: 481px) and (max-width: 767px) {
-  /* Estilos para teléfonos grandes */
+    margin: 0;
 }
 
