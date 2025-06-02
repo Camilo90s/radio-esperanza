@@ -34,6 +34,10 @@ body {
     align-items: center;
 }
 
+.logo p {
+    font-size: 1rem;
+}
+
 .boton {
     background-color: #2D6CDF;
     padding: 1rem 2rem;
@@ -42,8 +46,17 @@ body {
 
 .boton__enlace {
     color: var(--primary);
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-decoration: none;
     padding: 0;
+}
+
+@media (max-width: 480px) {
+  
+}
+
+/* Teléfonos grandes (modo horizontal o pantallas más grandes) */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Estilos para teléfonos grandes */
 }
 
